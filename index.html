@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adam Lear's Online Portfoliio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="tabs" class="tab">
+            <button id="aboutTab" class="tablinks" onclick="openTab(event, 'about')">About</button>
+            <button class="tablinks" onclick="openTab(event, 'education')">Education</button>
+            <button class="tablinks" onclick="openTab(event, 'experience')">Experience</button>
+            <button class="tablinks" onclick="openTab(event, 'projects')">Projects</button>
+        </div>
+        <div id="about" class="tabcontent">
+            <h1>Adam Lear</h1>
+            <img src="../../professional_photo.jpg" width="238.6" height="357.8">
+            <p>Thank you for coming to my online portfoloio website. <br>
+                I am a junior at Drake University in Des Moines, where I major in Computer Science and Artificial Intelligence.
+                You can find more information about my schoolwork by clicking on the "Education" tab above.
+
+            </p>
+            <a href="https://www.linkedin.com/in/adam-lear-b95781208">Connect with me on Linkedin!</a>
+        </div>
+        <div id="education" class="tabcontent">
+            <div>
+                <h2>Drake University</h2>
+                <h3>B.S. Computer Science</h3>
+            </div>
+            <!-- Saving for later when we try to implement features
+            <div>
+                <select name="gradeInSchool" id="gradeInSchool">
+                    <option value="firstYear">First Year</option>
+                    <option value="secondYear">Second Year</option>
+                    <option value="thirdYear">Third Year</option>
+                </select>
+            </div>
+            <input type="checkbox" id="courseReveal" name="courseReveal">
+            <label for="courseReveal">Reveal All Courses</label> -->
+            <div>
+                <table border="1">
+                    <tr>
+                        <td>First Year</td>
+                        <td>
+                            <table border="1" id="firstYearTable">
+                                <tr>
+                                    <td>Interdisciplinary Perspectives on AI</td>
+                                    <td>This course serves as an introduction to the Artificial Intelligence major and minor. The aim of the course is to provide an overview of Artificial Intelligence through the lens of multiple disciplines, including computer science, philosophy, psychology, linguistics, literature, and business. The course will feature a number of outside speakers with expertise drawn from the above-listed areas. Upon completion of the course, students should have a foundation of the main ideas and concepts they will explore more deeply in later classes in the program.</td>
+                                </tr>
+                                <tr>
+                                    <td>Introduction to Computer Science I</td>
+                                    <td>Algorithms, programming, program structures and computing systems. Debugging and verification of programs, data presentation. Computer solution of problems using a high-level language.</td>
+                                </tr>
+                                <tr>
+                                    <td>Science Fiction, Science Fact</td>
+                                    <td>Course Description</td>
+                                </tr>
+                                <tr>
+                                    <td>Anthropology of Religion</td>
+                                    <td>Course Description</td>
+                                </tr>
+                                <tr>
+                                    <td>Microsoft Office Tools for Business Analysis</td>
+                                    <td>Microsoft Office Tools for Business Analysis. Students will become proficient in the use of software for communication and presentation of text and data using Microsoft Office Suite Tools. This course explores the use of technology and application software for solving business problems, both analytic and organizational in nature. The course uses the most current Microsoft Office application suite, including Word, Excel and PowerPoint. Topics include the use of financial, logical, and time functions in creating worksheets and the use of Pivot tables and charts in analyzing and presenting data. Topics also include how to use technology reliably and safely to avoid data loss and to avoid potential security compromises with an emphasis on ethical practices with regard to data and privacy issues. With all topics, there will be an emphasis on problem solving where the tools are used to create desired solutions.</td>
+                                </tr>
+                                <tr>
+                                    <td>The Nature of Intelligence</td>
+                                    <td>This course will explore contemporary and historical perspectives on learning and intelligence. Drawing from philosophy, psychology, and neuroscience, we will explore common themes and open-questions regarding the natures of learning and intelligence. Interactions between technological development (e.g., artificial intelligence) and views about learning and intelligence will be explored.</td>
+                                </tr>
+                                <tr>
+                                    <td>Introduction to Computer Science II</td>
+                                    <td>Continuance of CS 65 using a block-structured language and emphasizing data abstraction. More general data structures and alternative implementations of them are used in programs, Sorting, searching and tree traversal algorithms are used and analyzed.</td>
+                                </tr>
+                                <tr>
+                                    <td>Artificial Intelligence Ehtics</td>
+                                    <td>This course increases understanding of issues related to ethics, professional conduct and social responsibility as they arise in Computer Science and applications of Information Technology. Additionally, the course serves to develop 1) the ability to think clearly; 2) habits of professsional responsibility and behavior; and 3) effective writing and presentation skills. Students are exposed to the history of the discipline fro a social point of view, and to various frameworks from which ethical and professional decisions must be made within the discipline.</td>
+                                </tr>
+                                <tr>
+                                    <td>Intro Psychology</td>
+                                    <td>A survey of contemporary methods and approaches to the science of behavior, which may include such topics as methodology, physiology, developmental and social psychology, sensation, perception, learning, intelligence, personality, and mental illness and treatment. Psychology lab is required. The laboratory uses experiments, discussions, demonstrations and other activities to complement the materials in the lecture.</td>
+                                </tr>
+                                <tr>
+                                    <td>Introduction to R and SAS</td>
+                                    <td>This course will cover how to access, structure, format, manipulate and archive data using R and SAS. It will include topics in data inputting, merging files, cleaning data, data summary, descriptive statistics, running procedure statements, graphical presentation of data, loops, if/then statements, and creating your own scripts and functions that extend the language.</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Second Year</td>
+                        <td>
+                            <table border="1" id="secondYear">
+                                <tr>
+                                    <td>Computer Organization and Assembly Languages</td>
+                                    <td>Computer organization and architecture; internal representation of programs and data; assembly language programming; addressing techniques, macros, assemblers, linking; input/output concepts.</td>
+                                </tr>
+                                <tr>
+                                    <td>Paths to Knowledge</td>
+                                    <td>Course Description</td>
+                                </tr>
+                                <tr>
+                                    <td>IT Ethics & Law</td>
+                                    <td>This course surveys the laws and ethical issues that impact information technology professionals. Topics include legal and ethical perspectives on data collection and management, information dissemination, cybersecurity, online privacy and freedom of expression, digital intellectual property management, software development, software development, and social networking use. The future of information technology and its predicted impacts are also discussed.</td>
+                                </tr>
+                                <tr>
+                                    <td>Database Management</td>
+                                    <td>A study of database concepts and technologies used in managing and using data within modern organizations: defining data needs; using modern database tools; understanding database design; and creating applications.</td>
+                                </tr>
+                                <tr>
+                                    <td>Introduction to Philosophy</td>
+                                    <td>Introduction to the Western philosophical tradition through a study expository and critical, of a variety of issues - the existence of God, freedom, foundations of belief, etc. - as they have been formulated in the writings of outstanding classical and contemporary philosophers.</td>
+                                </tr>
+                                <tr>
+                                    <td>Minds, Brains, and Computers</td>
+                                    <td>An introduction to philosophy of mind, focused on the nature of intentionality and consciousness, the relationship between mental and physical states, and the possibility of artificial intelligence.</td>
+                                </tr>
+                                <tr>
+                                    <td>Cloud and Database Systems</td>
+                                    <td>Data sets have become so large and complex that a new set of software tools must be developed in order to facilitate questions that can lead to impactful insights. This course will provide an in-depth study of tools and techniques used to process 'big data' stored on multiple computers. Topics include virtualization, python programming, the Hadoop ecosystem, MapReduce programming, Amazon Web Services, database querying including SQL and NoSQL programming.</td>
+                                </tr>
+                                <tr>
+                                    <td>Software Engineering</td>
+                                    <td>Developing sofrware is fundamentally different from writing programs. While programming expertise is a critical skill, the ability to produce software that is useful, usable and accepted by a broad audience requires much more to be successful. This course will expose you to some intracacies of developing Software. We will survey the field of software engineering, convering the life cycle of software, various developmental strategies, requirement analysis, design tools, and testing methodologies. These concepts will be explored in theory as well as in practice: you will gain experience in conceiving, specifying, designing, developing and implementing a reasonably sized software solution.</td>
+                                </tr>
+                                <tr>
+                                    <td>AI in Fiction</td>
+                                    <td>Course Description</td>
+                                </tr>
+                                <tr>
+                                    <td>Network Management</td>
+                                    <td>A study of the modern networking concepts and terminology, network protocols and architectures, and distributed applications within modern systems. The Internet and its applications, its security issues, and management issues are emphasized.</td>
+                                </tr>
+                                <tr>
+                                    <td>Statistcs I</td>
+                                    <td>An introduction to descriptive and inferential statistics; frequency distributions; measures of central tendency and spread; confidence intervals; large and small sample tests of significance; probability; and binomial and normal distributions.</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Third Year</td>
+                        <td>
+                            <table border="1" id="thirdYear">
+                                <tr>
+                                    <td>Human-Computer Interaction</td>
+                                    <td>This course provides an introduction to and overview of the field of human-computer interaction (HCI). HCI is an interdisciplinary field that integrates theories and methodologies from computer science, psychology, design, and many other areas. This course covers a rich set of HCI methods and tools, both from a theoretical and practical point of view, in use by today’s HCI professionals for designing and improving technologies.</td>
+                                </tr>
+                                <tr>
+                                    <td>Discrete Mathematics</td>
+                                    <td>Number systems, algorithms, set theory, logic, Boolean algebra, functions, combinatorics, probability, graph theory.</td>
+                                </tr>
+                                <tr>
+                                    <td>Introduction to Robotics</td>
+                                    <td>The course introduces students to various aspects of robotics, with particular emphasis on programming and PID control theory. It stresses real-time and multi-task programming, with appropriate and effective reactions to external conditions. Students work in small groups to design, build, and program small-scale robots.</td>
+                                </tr>
+                                <tr>
+                                    <td>Machine Learning</td>
+                                    <td>This course introduces approaches to developing computer programs that learn from data. Both foundational and contemporary machine learning algorithms will be covered in the context of a variety of data and problem types. Specific topics will vary but may include artificial neural networks, decision trees, instance-based learning, Bayesian learning, support vector machines, hidden Markov models, reinforcement learning, and natural language processing. Students will develop their own implementations of the algorithms as well as utilize modern machine learning software and programming libraries.</td>
+                                </tr>
+                                <tr>
+                                    <td>Honors Foundations</td>
+                                    <td>Course Description</td>
+                                </tr>
+                                <tr>
+                                    <td>Calculus III</td>
+                                    <td>Infinite series and sequences, power series, and Taylor series. Plane curves; introduction to limits, continuity, differentiation, and integration for functions of several variables.</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="experience" class="tabcontent">
+            <h1>Federal Reserve Bank of Chicago</h1>
+        </div>
+        <div id="projects" class="tabcontent">
+            <h1>Data Science Research Group</h1>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
