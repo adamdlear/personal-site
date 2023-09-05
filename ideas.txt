@@ -1,0 +1,29 @@
+Can put resume as a viewable page rather than something that leads to another page
+
+Tabs to different sections
+    Homepage/About
+    Education
+    Experience
+    Projects
+
+Automatically routes to "About" page
+
+About
+    Image off to left
+    Statement about who I am
+    Ways to connect with me
+
+
+Education
+    College education
+    Courses header
+
+
+Experience
+    Drake ITS
+    Hyvee
+    FRS
+
+
+Projects
+    Data Science Research Group
