@@ -4,9 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <link rel="stylesheet" href="assets/css/styles.css" />
-
         <title>Adam Lear's Online Portfolio</title>
     </head>
 
@@ -38,8 +36,10 @@
             <div class="bio">
                 <h2 class="bio-title">About Me</h2>
                 <p class="bio-text">
-                    I'm a young professional in the IT space with interests in many different fields and industries.
+                    I'm a young professional in the IT space with interests in different fields and industries.
                     I have experience in both software engineering and data science roles, but I've come to love being in a role where I can build something from scratch.
+                    I'm also really interested in these ___ industries...
+                    One thing that you won't learn about me on my resume is that ...
                 </p>
             </div>
         </section>
@@ -47,50 +47,81 @@
 
         <!-- Education -->
         <section class="section" id="education">
-            <h2 class="education-header">Education</h2>
-                <h3 class="drake-header">Drake University</h3>
-                <div class="inside-section">
-                    <ul>
-                        <li>Majors: Computer Science & Artificial Intelligence</li>
-                        <li>Minor: Philosophy</li>
-                        <li>GPA: 3.92</li>
-                        <li>Relevant Coursework:
-                            <ul id="course-list1">
-                                <li>Artificial Intelligence</li>
-                                <li>Cloud and Databse Systems</li>
-                                <li>Computer Organization and Assembly</li>
-                                <li>Database Management</li>
-                                <li>Discrete Mathematics</li>
-                            </ul>
-                            <ul id="course-list2">
-                                <li>Human-Computer Interaction</li>
-                                <li>Machine Learning</li>
-                                <li>Network Management</li>
-                                <li>Programming Languages</li>
-                                <li>Software Engineering</li>                                
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+            <h2 class="section-header">Education</h2>
+            <table>
+                <tr class="box">
+                    <td class="logo-cell">
+                        <img src="assets/images/drake_logo.png"
+                             alt="Drake University Logo"
+                             loading="lazy"
+                             class="logo"
+                             id="drake-logo">
+                    </td>
+                    <td>
+                        <h3>Drake University</h3>
+                        <ul style="list-style: disc">
+                            <li>Majors: Computer Science & Artificial Intelligence</li>
+                            <li>Minor: Philosophy</li>
+                            <li>GPA: 3.92</li>
+                            <li>Favorite Courses: Human-Computer Interaction, Programming Languages, Software Engineering</li>
+                        </ul>
+                    </td>
+
+                </tr>
+            </table>
+
         </section>
         <hr />
 
         <!-- Experience -->
         <section class="section" id="experience">
-            <h2 class="experience-header">Experience</h2>
-            <h3 class="internships-header">Internships</h3>
-               
-            <h3 class="other-experience-header">Other Relevant Experience</h3>
+            <h2 class="section-header">Experience</h2>
+            <table>
+                <tr class="box">
+                    <td class="logo-cell">
+                        <img src="assets/images/hyvee_logo.svg.png"
+                            alt="Hy-Vee logo"
+                            loading="lazy"
+                            class="logo">
+                    </td>
+                    <td>
+                        <h3>Hy-Vee</h3>
+                        <ul style="list-style: disc">
+                            <li>Define questions of interest with team members</li>
+                            <li>Use Python and SQL to explore and transform data</li>
+                            <li>Create code for the gathering, merging, and aggregating of data</li>
+                            <li>Utilize Artificial Intelligence and other Natural Language Processing techniques to classify labels</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="box">
+                    <td class="logo-cell">
+                        <img src="assets/images/fed_logo.png"
+                            alt="Chicago Fed Logo"
+                            loading="lazy"
+                            class="logo">
+                    </td>
+                    <td>
+                        <h3>Federal Reserve Bank of Chicago</h3>
+                        <ul style="list-style: disc">
+                            <li>Developed, tested, and deployed code for application that processes payments for 10,000+ organizations</li>
+                            <li>Collaborated with Scrum team using Agile methodologies</li>
+                            <li>Improved security and performance public facing webpages</li>
+                            <li>Modified web applications using Angular framework</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
         </section>
         <hr />
 
         <!-- Projects -->
         <section class="section" id="projects">
-            <h2 class="projects-header">Projects</h2>
+            <h2 class="section-header">Projects</h2>
             <table>
                 <tr>
-                    Personal Portfolo Website
-                    Create a personal website where I can display my work.
+                    <th>Personal Portfolio Website</th>
+                    <th>Create a personal website where I can display my work.</th>
                 </tr>
             </table>
         </section>

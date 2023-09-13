@@ -82,8 +82,8 @@ nav ul li {
 }
 
 hr {
-    margin-left: 5rem;
-    margin-right: 5rem
+    border: none;
+    padding: 1rem;
 }
 
 .burger-menu {
@@ -111,6 +111,19 @@ hr {
     border-radius: 6px;
 }
 
+.logo {
+    height: 100px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#drake-logo {
+    height: auto;
+    width: 100px;
+}
+
 .bio {
     width: 25rem;
     padding: 0.625rem ;
@@ -134,10 +147,29 @@ hr {
     margin-bottom: 1rem;
 }
 
-.inside-section {
-    margin-left: 1rem;
+.box {
+    width: auto;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px 2px var(--primary-shadow);
 }
 
-#course-list {
-    margin-left: 1rem;
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0 2rem;
+    line-height: 1.4;
+}
+
+tr {
+}
+
+td {
+    padding: 1rem;
+    text-align: left;
+}
+
+.logo-cell {
+    width: 8%;
 }
