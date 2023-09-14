@@ -102,7 +102,7 @@ hr {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -119,9 +119,16 @@ hr {
     display: block;
 }
 
-#drake-logo {
+.drake-logo {
+    .logo;
     height: auto;
     width: 100px;
+
+}
+
+#research-poster {
+    width: 50%;
+    height: auto;
 }
 
 .bio {
@@ -143,7 +150,7 @@ hr {
 .section {
     margin-left: 7rem;
     margin-right: 7rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -168,6 +175,7 @@ tr {
 td {
     padding: 1rem;
     text-align: left;
+    vertical-align: top;
 }
 
 .logo-cell {

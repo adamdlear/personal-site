@@ -6,24 +6,21 @@ Tabs to different sections
     Experience
     Projects
 
-Automatically routes to "About" page
+Automatically routes to an "About" page
 
 About
-    Image off to left
+    Image off to the left
     Statement about who I am
     Ways to connect with me
 
-
 Education
-    College education
+    College Education
     Courses header
-
 
 Experience
     Drake ITS
     Hyvee
     FRS
-
 
 Projects
     Data Science Research Group
