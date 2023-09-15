@@ -82,8 +82,8 @@ nav ul li {
 }
 
 hr {
-    margin-left: 5rem;
-    margin-right: 5rem
+    border: none;
+    padding: 1rem;
 }
 
 .burger-menu {
@@ -102,13 +102,36 @@ hr {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
 .professional-photo {
     align-items: left;
     border-radius: 6px;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.drake-logo {
+    .logo;
+    height: auto;
+    width: 100px;
+
+}
+
+#research-poster {
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .bio {
@@ -130,14 +153,36 @@ hr {
 .section {
     margin-left: 7rem;
     margin-right: 7rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
-.inside-section {
-    margin-left: 1rem;
+.box {
+    width: auto;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px 2px var(--primary-shadow);
 }
 
-#course-list {
-    margin-left: 1rem;
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0 2rem;
+    line-height: 1.4;
+}
+
+td {
+    padding: 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.logo-cell {
+    width: 8%;
+}
+
+.bullet-list {
+    list-style-position: outside;
+    padding-left: 1rem;
 }
