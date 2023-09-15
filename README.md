@@ -1,7 +1,7 @@
-# Personal Website
+# Personal Website (In Progress)
 
 You can view my webpage here:<br>
-<a href="https://adam-lear.com" target="_blank">adam-lear.com</a>
+### <a href="https://adam-lear.com" target="_blank">adam-lear.com</a>
 
 ## Project Description
 This project creates a static webpage where I can display information

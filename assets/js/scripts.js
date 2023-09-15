@@ -1,5 +1,9 @@
 document.getElementById("aboutTab").click();
 
+function changeStyle() {
+    document.getElementsByClassName("navigation").style.color = "blue";
+}
+
 // function comes from w3schools article on tabs
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
