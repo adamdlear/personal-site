@@ -97,7 +97,7 @@ hr {
     display: none;
 }
 
-.about {
+#about {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,10 +122,15 @@ hr {
 }
 
 .drake-logo {
-    .logo;
     height: auto;
     width: 100px;
+    object-fit: contain;
+}
 
+.logo1 {
+    max-height: 100px;
+    width: 100px;
+    object-fit: contain;
 }
 
 #research-poster {
@@ -153,17 +158,28 @@ hr {
 }
 
 .section {
-    margin-left: 7rem;
-    margin-right: 7rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 16px;
 }
 
+/* .box { */
+/*     width: auto; */
+/*     padding: 1rem; */
+/*     border-radius: 6px; */
+/*     box-shadow: 3px 3px 5px 2px var(--primary-shadow); */
+/* } */
+
 .box {
-    width: auto;
-    padding: 1rem;
+    margin-top: 25px;
+    padding: 16px;
+    border-spacing: 0 32px;
     border-radius: 6px;
-    box-shadow: 3px 3px 5px 2px var(--primary-shadow);
+    box-shadow: 2px 2px 4px 2px var(--primary-shadow);
+    line-height: 1.4;
+    display: flex;
+    gap: 25px;
 }
 
 table {

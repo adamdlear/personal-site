@@ -1,158 +1,186 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
-        <title>Adam Lear's Online Portfolio</title>
-    </head>
 
-    <body>
-        <!-- Navbar -->
-        <nav>
-            <ul class="navigation">
-                <h1>Adam Lear</h1>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="assets/images/LearResume.pdf" class="nav-link" target="_blank">View Resume</a></li>
-            </ul>
-            <button class="burger-menu" id="burger-menu">
-                <ion-icon class="bars" name="menu-outline"></ion-icon>
-            </button>
-        </nav>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Adam Lear's Online Portfolio</title>
+</head>
 
-        <!-- About/Home -->
-        <section class="about" id="about">
-            <img
-            src="assets/images/professional_photo.jpg"
-            alt="professional photo"
-            loading="lazy"
-            class="professional-photo"
-            width="238.6"
-            height="357.8"
-            />
-            <div class="bio">
-                <h2 class="bio-title">About Me 👋 </h2>
-                <p class="bio-text">
-                    I'm a young professional in the IT space with an interest in different industries.
-                    I have experience in both software engineering and data science roles.
-                </p>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul class="navigation">
+            <h1>Adam Lear</h1>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#other-experience" class="nav-link">Other Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li>
+                <a href="assets/images/LearResume.pdf" class="nav-link" target="_blank">View Resume</a>
+            </li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- About/Home -->
+    <section class="section" id="about">
+        <img src="assets/images/professional_photo.jpg" alt="professional photo" loading="lazy"
+            class="professional-photo" width="238.6" height="357.8" />
+        <div class="bio">
+            <h2 class="bio-title">About Me 👋</h2>
+            <p class="bio-text">
+                Hey, there! I'm Adam, a tech enthusiast I'm a young professional in
+                the IT space with an interest in software engineering in different
+                industries. I have experience in both software engineering and data
+                science roles, but I have come to love building things from scratch!
+            </p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+        <h2 class="section-header">Education 📚</h2>
+        <section class="box">
+            <img src="assets/images/drake_logo.png" alt="Drake University Logo" loading="lazy" class="logo1" />
+            <div>
+                <h3>Drake University, August 2020 - May 2024</h3>
+                <ul style="list-style: disc" class="bullet-list">
+                    <li>Majors: Computer Science & Artificial Intelligence</li>
+                    <li>GPA: 3.88</li>
+                    <li>
+                        Favorite Courses: Software Engineering, Algorithm Analysis,
+                        Programming Languages
+                    </li>
+                </ul>
             </div>
         </section>
-        <hr>
+    </section>
 
-        <!-- Education -->
-        <section class="section" id="education">
-            <h2 class="section-header">Education 📚</h2>
-            <section class="box1">
-                <img src="assets/images/drake_logo.png" alt="Drake University Logo" loading="lazy" class="logo1">
-                <div>
-                    <h3>Drake University, August 2020 - May 2024</h3>
-                    <ul style="list-style: disc" class="bullet-list">
-                        <li>Majors: Computer Science & Artificial Intelligence</li>
-                        <li>GPA: 3.88</li>
-                        <li>Favorite Courses: Software Engineering, Algorithm Analysis, Programming Languages</li>
-                    </ul>
-                </div>
-            </section>
+    <!-- Internship Experience -->
+    <section class="section" id="experience">
+        <h2 class="section-header">Internship Experience 💻</h2>
+        <section class="box">
+            <img src="assets/images/hyvee_logo.png" alt="Hy-Vee Logo" loading="lazy" class="logo1" />
+            <div>
+                <h3>Hy-Vee, Inc.</h3>
+                <ul style="list-style: disc" class="bullet-list">
+                    <li>Use Python and SQL to explore and transform data</li>
+                    <li>
+                        Create code for the gathering, merging, and aggregating of data
+                    </li>
+                    <li>
+                        Utilize Artificial Intelligence and other Natural Language
+                        Processing techniques to predict item labels
+                    </li>
+                    <li>Wrote unit tests for a large classication prediction model</li>
+                </ul>
+            </div>
         </section>
-        <hr>
-
-        <!-- Internship Experience -->
-        <section class="section" id="experience">
-            <h2 class="section-header">Internship Experience 💻 </h2>
-            <section class="box1">
-                <img src="assets/images/hyvee_logo.svg.png" alt="Hy-Vee Logo" loading="lazy" class="logo1">
-                <div>
-                    <h3>Hy-Vee, Inc.</h3>
-                    <ul style="list-style: disc" class="bullet-list">
-                        <li>Use Python and SQL to explore and transform data</li>
-                        <li>Create code for the gathering, merging, and aggregating of data</li>
-                        <li>Utilize Artificial Intelligence and other Natural Language Processing techniques to predict item labels</li>
-                        <li>Wrote unit tests for a large classication prediction model</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="box1">
-                <img src="assets/images/fed_logo.png" alt="Chicago Fed Logo" loading="lazy" class="logo1">
-                <div>
-                    <h3>Federal Reserve Bank of Chicago</h3>
-                    <ul style="list-style: disc" class="bullet-list">
-                        <li>Developed, tested, and deployed code for application that processes payments for 10,000+ organizations</li>
-                        <li>Collaborated with Scrum team using Agile methodologies</li>
-                        <li>Improved security and performance public-facing webpages</li>
-                        <li>Modified web applications using the Angular framework</li>
-                    </ul>
-                </div>
-            </section>
+        <section class="box"> <img src="assets/images/fed_logo.png" alt="Chicago Fed Logo" loading="lazy" class="logo1" /> <div>
+                <h3>Federal Reserve Bank of Chicago</h3>
+                <ul style="list-style: disc" class="bullet-list">
+                    <li>
+                        Developed, tested, and deployed code for application that
+                        processes payments for 10,000+ organizations
+                    </li>
+                    <li>Collaborated with Scrum team using Agile methodologies</li>
+                    <li>Improved security and performance public-facing webpages</li>
+                    <li>Modified web applications using the Angular framework</li>
+                </ul>
+            </div>
         </section>
-        <hr>
+    </section>
 
-        <!-- Additional Experience-->
-        <section class="section" id="additional-experience">
-            <h2 class="section-header">Additional Experience 💼</h2>
-            <section class="box1">
-                <img src="assets/images/drake_logo.png" alt="Drake University Logo" loading="lazy" class="logo1">
-                <div>
-                    <h3>Drake University ITS</h3>
-                    <ul style="list-style: disc" class="bullet-list">
-                        <li>Troubleshoot technology issues on campus and help users with any errors they encounter</li>
-                        <li>Answer calls and other concerns about technology on campus</li>
-                        <li>Use queue in the TeamDynamix ticketing system to organize and prioritize work</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="box1">
-                <img src="assets/images/drake_logo.png" alt="Drake University Logo" loading="lazy" class="logo1">
-                <div>
-                    <h3>Drake University Tutoring Center</h3>
-                    <ul style="list-style: disc" class="bullet-list">
-                        <li>Worked closely with students taking Intro to Computer Science I & II, Object Oriented Programming, and Computer Organization & Assembly</li>
-                        <li>assisted students in debugging Python, Java, and C code, troubleshooting errors, and optimizing code to improve efficiency and functionality</li>
-                        <li>Clarified simple and complex Computer Science topic to non-majors using diagrams and analogies</li>
-                    </ul>
-                </div>
-            </section>
+    <!-- Additional Experience-->
+    <section class="section" id="additional-experience">
+        <h2 class="section-header">Additional Experience 💼</h2>
+        <section class="box">
+            <img src="assets/images/drake_logo.png" alt="Drake University Logo" loading="lazy" class="logo1" />
+            <div>
+                <h3>Drake University ITS</h3>
+                <ul style="list-style: disc" class="bullet-list">
+                    <li>
+                        Troubleshoot technology issues on campus and help users with any
+                        errors they encounter
+                    </li>
+                    <li>Answer calls and other concerns about technology on campus</li>
+                    <li>
+                        Use queue in the TeamDynamix ticketing system to organize and
+                        prioritize work
+                    </li>
+                </ul>
+            </div>
         </section>
-
-        <!-- Projects -->
-        <section class="section" id="projects">
-            <h2 class="section-header">Projects 🏋</h2>
-            <section class="box1">
-                <img src="assets/images/drake_logo.png" alt="Drake University Logo" loading="lazy" class="logo1">
-                <div>
-                    <h3>Drake University Department of Mathematics and Computer Science</h3>
-                    <ul style="list-style: disc" class="bullet-list">
-                        <li>Facult Mentor: Eric Manley, PhD.</li>
-                        <li>Gather and clean data of banks from years from 2007-2012 using Python's pandas library</li>
-                        <li>Use data in various machine learning models to predict when a bank might close in the future</li>
-                        <li>Presented findings at Drake University Conference on Undergraduate Research in the Sciences and Consortium for Computing Sciences in Colleges (2nd place)</li>
-                        <a href="assets/images/research_slide.jpg" target="_blank">
-                            <img src="assets/images/research_slide.jpg"
-                                    alt="Research Poster"
-                                    loading="lazy"
-                                    id="research-poster">
-                            Click to view a larger version.
-                        </a>
-                    </ul>
-                </div>
-            </section>
+        <section class="box">
+            <img src="assets/images/drake_logo.png" alt="Drake University Logo" loading="lazy" class="logo1" />
+            <div>
+                <h3>Drake University Tutoring Center</h3>
+                <ul style="list-style: disc" class="bullet-list">
+                    <li>
+                        Worked closely with students taking Intro to Computer Science I &
+                        II, Object Oriented Programming, and Computer Organization &
+                        Assembly
+                    </li>
+                    <li>
+                        assisted students in debugging Python, Java, and C code,
+                        troubleshooting errors, and optimizing code to improve efficiency
+                        and functionality
+                    </li>
+                    <li>
+                        Clarified simple and complex Computer Science topic to non-majors
+                        using diagrams and analogies
+                    </li>
+                </ul>
+            </div>
         </section>
+    </section>
 
-        <!-- scripts -->
-        <script src="asset/js/app.js"></script>
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <h2 class="section-header">Projects 🏋</h2>
+        <section class="box">
+            <img src="assets/images/drake_logo.png" alt="Drake University Logo" loading="lazy" class="logo1" />
+            <div>
+                <h3>
+                    Drake University Department of Mathematics and Computer Science
+                </h3>
+                <ul style="list-style: disc" class="bullet-list">
+                    <li>Facult Mentor: Eric Manley, PhD.</li>
+                    <li>
+                        Gather and clean data of banks from years from 2007-2012 using
+                        Python's pandas library
+                    </li>
+                    <li>
+                        Use data in various machine learning models to predict when a bank
+                        might close in the future
+                    </li>
+                    <li>
+                        Presented findings at Drake University Conference on Undergraduate
+                        Research in the Sciences and Consortium for Computing Sciences in
+                        Colleges (2nd place)
+                    </li>
+                    <a href="assets/images/research_slide.jpg" target="_blank">
+                        <img src="assets/images/research_slide.jpg" alt="Research Poster" loading="lazy"
+                            id="research-poster" />
+                        Click to view a larger version.
+                    </a>
+                </ul>
+            </div>
+        </section>
+    </section>
 
-        <script
-            type="module"
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-        ></script>
+    <!-- scripts -->
+    <script src="assets/js/scripts.js" />
 
-        <script
-            nomodule
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
-    </body>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
