@@ -29,6 +29,38 @@ html {
     box-sizing: border-box;
 }
 
+.content {
+    display: flex;
+    margin-left: 20%;
+}
+
+nav {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    align-content: center;
+}
+
+nav ul {
+    height: 33%;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px 2px var(--primary-shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+}
+
+main {
+    width: 80%;
+    height: 100%;
+}
+
 ul {
     list-style-type: none;
 }
@@ -46,21 +78,6 @@ body {
     font-family: var(--font-family);
 }
 
-nav {
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    display: flex!important;
-    flex-basis: auto;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  }
-
 nav h1 {
     color: var(--primary-color);
   }
@@ -74,10 +91,6 @@ nav a:hover {
     border-bottom: 2px solid var(--secondary-color);
 }
 
-nav ul {
-    display: flex;
-    gap: 1.9rem;
-}
 
 nav ul li {
     font-weight: var(--bold-font);
