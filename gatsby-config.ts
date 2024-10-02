@@ -14,7 +14,7 @@ const config: GatsbyConfig = {
         {
             resolve: `gatsby-plugin-s3`,
             options: {
-                bucketName: "www.adam-lear.com",
+                bucketName: "adam-lear.com",
             },
         },
     ],
