@@ -12,10 +12,10 @@ const config: GatsbyConfig = {
     plugins: [
         "gatsby-plugin-postcss",
         {
-          resolve: `gatsby-plugin-s3`,
-          options: {
-            bucketName: "www.adam-lear.com",
-          },
+            resolve: `gatsby-plugin-s3`,
+            options: {
+                bucketName: "www.adam-lear.com",
+            },
         },
     ],
 };
