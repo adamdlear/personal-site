@@ -13,6 +13,7 @@
         "build": "gatsby build",
         "serve": "gatsby serve",
         "clean": "gatsby clean",
+        "deploy": "gatsby-plugin-s3 deploy",
         "typecheck": "tsc --noEmit",
         "prettier": "npx prettier . --write"
     },
@@ -20,6 +21,7 @@
         "autoprefixer": "^10.4.20",
         "gatsby": "^5.13.7",
         "gatsby-plugin-postcss": "^6.13.1",
+        "gatsby-plugin-s3": "^0.4.1",
         "postcss": "^8.4.47",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
