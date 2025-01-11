@@ -5,9 +5,9 @@ on:
             - main
 
 jobs:
-    deploy-to-s3:
+    deploy-site:
         runs-on: ubuntu-latest
-        name: Deploy to S3
+        name: Deploy Site
         steps:
             - uses: actions/checkout@v4
 
