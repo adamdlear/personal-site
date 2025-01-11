@@ -8,14 +8,14 @@
         "gatsby"
     ],
     "scripts": {
-        "develop": "gatsby develop",
-        "start": "gatsby develop",
         "build": "gatsby build",
-        "serve": "gatsby serve",
         "clean": "gatsby clean",
-        "deploy": "gatsby-plugin-s3 deploy",
-        "typecheck": "tsc --noEmit",
-        "prettier": "npx prettier . --write"
+        "deploy": "sst deploy",
+        "develop": "gatsby develop",
+        "prettier": "npx prettier . --write",
+        "serve": "gatsby serve",
+        "start": "gatsby develop",
+        "typecheck": "tsc --noEmit"
     },
     "dependencies": {
         "autoprefixer": "^10.4.20",
@@ -26,9 +26,11 @@
         "postcss": "^8.4.47",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "sst": "3.5.5",
         "tailwindcss": "^3.4.13"
     },
     "devDependencies": {
+        "@types/aws-lambda": "8.10.147",
         "@types/node": "^20.11.19",
         "@types/react": "^18.2.55",
         "@types/react-dom": "^18.2.19",
