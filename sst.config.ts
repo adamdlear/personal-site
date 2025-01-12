@@ -17,8 +17,8 @@ export default $config({
                 output: "public",
             },
             domain: {
-                name: "adam-lear.com",
-                redirects: ["www.adam-lear.com"],
+                name: "adamdlear.com",
+                redirects: ["www.adamdlear.com"],
             },
         });
     },
