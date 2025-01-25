@@ -6,7 +6,8 @@ export const AboutMe = () => {
         for those buying and selling agricultual equipment. In my free time you can catch me working on any of these
         projects:
     `;
-    const currentProjects = [{ label: "Revamping this website", link: "https://github.com/adamdlear/personal-site" }];
+    const currentProjects = [
+        { label: "A music guessing party game", link: "https://github.com/adamdlear/playlist-roulette" }];
 
     return (
         <div className="flex flex-col">
