@@ -10,16 +10,11 @@ export default $config({
         };
     },
     async run() {
-        new sst.aws.StaticSite("PersonalSite", {
-            errorPage: "404.html",
-            build: {
-                command: "yarn build",
-                output: "public",
-            },
+        new sst.aws.Astro("PersonalSite", {
             domain: {
                 name: "adamdlear.com",
                 redirects: ["www.adamdlear.com"],
             },
-        });
+        })
     },
 });
