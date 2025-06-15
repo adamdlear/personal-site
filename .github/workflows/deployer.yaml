@@ -17,6 +17,9 @@ jobs:
           node-version: "20.x"
           cache: "pnpm"
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
         run: pnpm install
 
@@ -28,4 +31,4 @@ jobs:
           aws-region: us-east-2
 
       - name: Deploy static site
-        run: pnpm deploy
+        run: pnpm sst deploy
