@@ -1,20 +1,16 @@
 {
-  "name": "personal-site",
-  "version": "1.0.0",
-  "private": true,
-  "description": "My personal portfolio website",
-  "author": "Adam Lear",
+  "name": "spiffy-sphere",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
     "astro": "astro",
-    "deploy": "sst deploy"
+    "build": "astro build",
+    "dev": "astro dev",
+    "preview": "astro preview"
   },
   "dependencies": {
     "astro": "^5.9.3",
-    "sst": "3.5.5",
     "astro-sst": "3.1.4",
-    "tailwindcss": "^3.4.13"
+    "sst": "3.17.5"
   }
 }

@@ -5,7 +5,7 @@
 
 declare module "sst" {
   export interface Resource {
-    "PersonalSite": {
+    "MyWeb": {
       "type": "sst.aws.Astro"
       "url": string
     }
