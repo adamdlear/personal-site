@@ -8,7 +8,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "sst deploy"
   },
   "dependencies": {
     "astro": "^5.9.3",
