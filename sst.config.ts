@@ -1,5 +1,11 @@
 /// <reference path="./.sst/platform/config.d.ts" />
 
+const domain = {
+    name: "adamdlear.com",
+    redirects: ["www.adamdlear.com"],
+    dns: sst.aws.dns({ zone: "Z08100281IZ4D4IAXD0LA" }),
+}
+
 export default $config({
     app(input) {
         return {
@@ -11,11 +17,7 @@ export default $config({
     },
     async run() {
         new sst.aws.Astro("PersonalSite", {
-            domain: {
-                name: "adamdlear.com",
-                redirects: ["www.adamdlear.com"],
-                dns: sst.aws.dns({ zone: "Z08100281IZ4D4IAXD0LA" }),
-            },
+            domain
         });
     },
 });
