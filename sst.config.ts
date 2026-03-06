@@ -11,6 +11,9 @@ export default $config({
     },
     async run() {
         new sst.aws.Astro("PersonalSite", {
+            server: {
+                runtime: "nodejs22.x"
+            },
             domain: {
                 name: "adamdlear.com",
                 redirects: ["www.adamdlear.com"],
